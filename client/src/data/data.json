@@ -1,1099 +1,1213 @@
 {
-    "navUlData": [
-        {
-            "liClass": "nav-menu-item active",
-            "href": "/",
-            "menuItem": "Home"
-        },
-        {
-            "liClass": "nav-menu-item",
-            "href": "/resume",
-            "menuItem": "Resume"
-        },
-        {
-            "liClass": "nav-menu-item",
-            "href": "/services",
-            "menuItem": "Services"
-        },
-        {
-            "liClass": "nav-menu-item",
-            "href": "/portfolio",
-            "menuItem": "Portfolio"
-        },
-        {
-            "liClass": "nav-menu-item",
-            "href": "/blog",
-            "menuItem": "Blog"
-        },
-        {
-            "liClass": "nav-menu-item",
-            "href": "/contact",
-            "menuItem": "Contact"
-        }
-    ],
-    "SocialMediaDetails": {
-        "className": "ftco-footer-social list-unstyled mt-4",
-        "li": [
-            {
-                "href": "https://www.linkedin.com/in/rashtell",
-                "className": "icon-linkedin"
-            },
-            {
-                "href": "https://www.twitter.com/rashtell",
-                "className": "icon-twitter"
-            },
-            {
-                "href": "https://www.facebook.com/rashtell",
-                "className": "icon-facebook"
-            },
-            {
-                "href": "http://www.instagram.com/rashtell2",
-                "className": "icon-instagram"
-            }
-        ]
+  "navUlData": [
+    {
+      "liClass": "nav-menu-item active",
+      "href": "/",
+      "menuItem": "Home"
     },
-    "contactInfo": {
-        "heading": "Contact me here!",
-        "email": {
-            "type": "Email: ",
-            "href": "mail:",
-            "email": "abdulrasheed.tella00@gmail.com"
-        },
-        "phone": {
-            "type": "Phone: ",
-            "href": "tel:",
-            "number": "+2348134738157"
-        }
+    {
+      "liClass": "nav-menu-item",
+      "href": "/resume",
+      "menuItem": "Resume"
     },
-    "aboutInfoData": {
-        "className": "mb-5",
-        "text1": "Hi! I'm Tella Abdulrasheed",
-        "text2": "My specialties includes Web Designing, Mobile Application Development, Machine Learning and Artificial Intelligence.",
-        "resumeLink": "http://rashtell.com",
-        "resumeText": "Checkout my resume"
+    {
+      "liClass": "nav-menu-item",
+      "href": "/services",
+      "menuItem": "Services"
     },
-    "aboutData": {
-        "section": {
-            "className": "ftco-section about-section"
-        },
+    {
+      "liClass": "nav-menu-item",
+      "href": "/portfolio",
+      "menuItem": "Portfolio"
+    },
+    {
+      "liClass": "nav-menu-item",
+      "href": "/blog",
+      "menuItem": "Blog"
+    },
+    {
+      "liClass": "nav-menu-item",
+      "href": "/contact",
+      "menuItem": "Contact"
+    }
+  ],
+  "SocialMediaDetails": {
+    "className": "ftco-footer-social list-unstyled mt-4",
+    "li": [
+      {
+        "href": "https://www.linkedin.com/in/rashtell",
+        "className": "icon-linkedin"
+      },
+      {
+        "href": "https://www.twitter.com/rashtell",
+        "className": "icon-twitter"
+      },
+      {
+        "href": "https://www.facebook.com/rashtell",
+        "className": "icon-facebook"
+      },
+      {
+        "href": "http://www.instagram.com/rashtell2",
+        "className": "icon-instagram"
+      }
+    ]
+  },
+  "contactInfo": {
+    "heading": "Contact me here!",
+    "email": {
+      "type": "Email: ",
+      "href": "mail:",
+      "email": "abdulrasheed.tella00@gmail.com"
+    },
+    "phone": {
+      "type": "Phone: ",
+      "href": "tel:",
+      "number": "+2348134738157"
+    }
+  },
+  "aboutInfoData": {
+    "className": "mb-5",
+    "text1": "Hi! I'm Tella Abdulrasheed",
+    "text2": "My specialties includes Fullstack Web Development, Mobile Application Development and Machine Learning.",
+    "resumeLink": "http://www.github.com/rashtell",
+    "resumeText": "Checkout my Repositories"
+  },
+  "aboutData": {
+    "section": {
+      "className": "ftco-section about-section"
+    },
+    "div1": {
+      "className": "container"
+    },
+    "div2": {
+      "className": "row d-flex",
+      "data-scrollax-parent": "true"
+    },
+    "div3": {
+      "className": "col-md-4 author-img",
+      "style": {
+        "backgroundImage": "url(images/author-1.jpg)"
+      },
+      "data-scrollax": " properties: { translateY: '-70%'}"
+    },
+    "div4": {
+      "className": "col-md-2"
+    },
+    "div5": {
+      "className": "col-md-6 wrap ftco-animate"
+    },
+    "div6": {
+      "className": "about-desc"
+    }
+  },
+  "aboutMeProps": {
+    "h1": {
+      "className": "bold-text",
+      "text": "About"
+    },
+    "div": {
+      "className": "p-5"
+    }
+  },
+  "achievementProps": {
+    "section": {
+      "className": "ftco-section ftco-counter",
+      "id": "section-counter",
+      "div": {
+        "className": "container",
         "div1": {
-            "className": "container"
+          "className": "row justify-content-center mb-5 pb-5",
+          "div": {
+            "className": "col-md-7 text-center heading-section ftco-animate",
+            "span": {
+              "text": "Portfolio"
+            },
+            "h2": {
+              "text": "I love to share my achievements"
+            }
+          }
         },
         "div2": {
-            "className": "row d-flex",
-            "data-scrollax-parent": "true"
-        },
-        "div3": {
-            "className": "col-md-4 author-img",
-            "style": {
-                "backgroundImage": "url(images/author-1.jpg)"
-            },
-            "data-scrollax": " properties: { translateY: '-70%'}"
-        },
-        "div4": {
-            "className": "col-md-2"
-        },
-        "div5": {
-            "className": "col-md-6 wrap ftco-animate"
-        },
-        "div6": {
-            "className": "about-desc"
-        }
-    },
-    "aboutMeProps": {
-        "h1": {
-            "className": "bold-text",
-            "text": "About"
-        },
-        "div": {
-            "className": "p-5"
-        }
-    },
-    "achievementProps": {
-        "section": {
-            "className": "ftco-section ftco-counter",
-            "id": "section-counter",
+          "className": "row d-flex justify-content-start",
+          "div": {
+            "className": "col-md-5 col-sm-5 counter-wrap ftco-animate",
             "div": {
-                "className": "container",
-                "div1": {
-                    "className": "row justify-content-center mb-5 pb-5",
-                    "div": {
-                        "className": "col-md-7 text-center heading-section ftco-animate",
-                        "span": {
-                            "text": "Portfolio"
-                        },
-                        "h2": {
-                            "text": "I love to share my achievements"
-                        }
-                    }
+              "className": "block-18",
+              "div": {
+                "className": "text",
+                "span": {
+                  "className": "ftco-label",
+                  "text": "Clients"
                 },
-                "div2": {
-                    "className": "row d-flex justify-content-start",
-                    "div": {
-                        "className": "col-md-5 col-sm-5 counter-wrap ftco-animate",
-                        "div": {
-                            "className": "block-18",
-                            "div": {
-                                "className": "text",
-                                "span": {
-                                    "className": "ftco-label",
-                                    "text": "Clients"
-                                },
-                                "strong": {
-                                    "className": "number",
-                                    "data-number": "420",
-                                    "text": 0
-                                }
-                            }
-                        }
-                    }
+                "strong": {
+                  "className": "number",
+                  "data-number": "420",
+                  "text": 0
                 }
+              }
             }
-        },
-        "var": [
-            {
-                "divClass": "row d-flex justify-content-start",
-                "spanText": "Clients",
-                "data-number": "420"
-            },
-            {
-                "divClass": "row d-flex justify-content-center",
-                "spanText": "Project done",
-                "data-number": "890"
-            },
-            {
-                "divClass": "row d-flex justify-content-end",
-                "spanText": "Cups of coffee",
-                "data-number": "1000"
-            }
-        ]
-    },
-    "contactSecProps": {
-        "section": {
-            "className": "ftco-section contact-section",
-            "div": {
-                "className": "container mt-5",
-                "div": {
-                    "className": "row d-flex mb-5 contact-info",
-                    "div1": {
-                        "className": "col-md-12 mb-4",
-                        "h2": {
-                            "className": "h4",
-                            "text": "Contact Information"
-                        }
-                    },
-                    "div2": {
-                        "className": "w-100"
-                    },
-                    "contact": [
-                        {
-                            "className": "col-md-3",
-                            "p": {
-                                "span": {
-                                    "text": "Address: "
-                                },
-                                "a": {
-                                    "href": "",
-                                    "target": "_blank",
-                                    "rel": "noopener noreferrer",
-                                    "text": "198 West 21th Street, Suite 721 New York NY 10016"
-                                }
-                            }
-                        },
-                        {
-                            "className": "col-md-3",
-                            "p": {
-                                "span": {
-                                    "text": "Phone: "
-                                },
-                                "a": {
-                                    "href": "tel:+2348134738157",
-                                    "text": "+234 813 4738 157",
-                                    "target": "_blank",
-                                    "rel": "noopener noreferrer"
-                                }
-                            }
-                        },
-                        {
-                            "className": "col-md-3",
-                            "p": {
-                                "span": {
-                                    "text": "Email: "
-                                },
-                                "a": {
-                                    "href": "mailto:rashtell2@gmail.com",
-                                    "text": "rashtell2@gmail.com",
-                                    "target": "_blank",
-                                    "rel": "noopener noreferrer"
-                                }
-                            }
-                        },
-                        {
-                            "className": "col-md-3",
-                            "p": {
-                                "span": {
-                                    "text": "Website: "
-                                },
-                                "a": {
-                                    "href": "http://rashtell.com",
-                                    "text": "rashtell.com",
-                                    "target": "_blank",
-                                    "rel": "noopener noreferrer"
-                                }
-                            }
-                        }
-                    ],
-                    "div4": {
-                        "className": "row block-9",
-                        "div1": {
-                            "className": "col-md-6 pr-md-5",
-                            "form": {
-                                "action": "#",
-                                "inputs": [
-                                    {
-                                        "className": "form-group",
-                                        "input": {
-                                            "type": "text",
-                                            "className": "form-control",
-                                            "placeholder": "Your Name"
-                                        }
-                                    },
-                                    {
-                                        "className": "form-group",
-                                        "input": {
-                                            "type": "text",
-                                            "className": "form-control",
-                                            "placeholder": "Your Email"
-                                        }
-                                    },
-                                    {
-                                        "className": "form-group",
-                                        "input": {
-                                            "type": "text",
-                                            "className": "form-control",
-                                            "placeholder": "Subject"
-                                        }
-                                    }
-                                ],
-                                "textarea": {
-                                    "className": "form-group",
-                                    "textarea": {
-                                        "name": "",
-                                        "id": "",
-                                        "cols": "30",
-                                        "rows": "7",
-                                        "className": "form-control",
-                                        "placeholder": "Message"
-                                    }
-                                },
-                                "submit": {
-                                    "className": "form-group",
-                                    "input": {
-                                        "type": "submit",
-                                        "value": "Send Message",
-                                        "className": "btn btn-primary py-3 px-5"
-                                    }
-                                }
-                            }
-                        },
-                        "map": {
-                            "className": "col-md-6",
-                            "id": "map"
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
     },
-    "educationProps": {
+    "var": [
+      {
+        "divClass": "row d-flex justify-content-start",
+        "spanText": "Clients",
+        "data-number": "40"
+      },
+      {
+        "divClass": "row d-flex justify-content-center",
+        "spanText": "Meetings",
+        "data-number": "200"
+      },
+      {
+        "divClass": "row d-flex justify-content-end",
+        "spanText": "Cups of coffee",
+        "data-number": "500"
+      }
+    ]
+  },
+  "contactSecProps": {
+    "section": {
+      "className": "ftco-section contact-section",
+      "div": {
+        "className": "container mt-5",
         "div": {
-            "className": "exp mt-5 ftco-animate",
+          "className": "row d-flex mb-5 contact-info",
+          "div1": {
+            "className": "col-md-12 mb-4",
             "h2": {
-                "className": "mb-4",
-                "text": "Education"
-            },
-            "div": [
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Master Degree in Computer Science",
-                            "span": {
-                                "text": " - Harvard University"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2013 - 2014"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Bacheclor of Science in Computer Science",
-                            "span": {
-                                "text": "- Harvard University"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2009 - 2012"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Diploma in Information Technology",
-                            "span": {
-                                "text": " - Oxford University"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2008 - 2010"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Front-End Developer",
-                            "span": {
-                                "text": " - Big Comany"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2012 - 2014"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "experienceProps": {
-        "div": {
-            "className": "exp mt-5 ftco-animate",
-            "h2": {
-                "className": "mb-4",
-                "text": "Experience"
-            },
-            "div": [
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "UX &amp; Interaction Designer",
-                            "span": {
-                                "text": " - Google Company"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2017 - Present"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "UX &amp; UI Designer",
-                            "span": {
-                                "text": " - QBootstrap.com"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2015 - 2017"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Designer &amp; Developer",
-                            "span": {
-                                "text": " - Themeforest.net"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2014 - 2015"
-                        }
-                    }
-                },
-                {
-                    "className": "exp-wrap py-4",
-                    "div1": {
-                        "className": "desc",
-                        "h4": {
-                            "text": "Front-End Developer",
-                            "span": {
-                                "text": " - Big Comany"
-                            }
-                        },
-                        "p": {
-                            "className": "location",
-                            "text": "Germany - Berlin"
-                        }
-                    },
-                    "div2": {
-                        "className": "year",
-                        "p": {
-                            "text": "2012 - 2014"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "footerProps": {
-        "footer": {
-            "className": "ftco-footer ftco-bg-dark ftco-section"
-        },
-        "div1": {
-            "className": "container"
-        },
-        "div2": {
-            "className": "row mb-5 justify-content-center"
-        },
-        "div3": {
-            "className": "col-md-5 text-center"
-        },
-        "div4": {
-            "className": "ftco-footer-widget mb-5",
-            "ul": {
-                "className": "ftco-footer-social list-unstyled",
-                "li": [
-                    {
-                        "className": "ftco-animate",
-                        "ahref": "https://www.twitter.com/rashtell",
-                        "spanclassName": "icon-twitter",
-                        "target": "_blank",
-                        "rel": "noloop noreferrer"
-                    },
-                    {
-                        "className": "ftco-animate",
-                        "ahref": "https://www.facebook.com/rashtell",
-                        "spanclassName": "icon-facebook",
-                        "target": "_blank",
-                        "rel": "noloop noreferrer"
-                    },
-                    {
-                        "className": "ftco-animate",
-                        "ahref": "https://www.instagram.com/rashtell2",
-                        "spanclassName": "icon-instagram",
-                        "target": "_blank",
-                        "rel": "noopener noreferrer"
-                    }
-                ]
+              "className": "h4",
+              "text": "Contact Information"
             }
-        },
-        "div5": {
-            "className": "ftco-footer-widget",
-            "h2": {
-                "className": "mb-3",
-                "text": "Contact Us"
+          },
+          "div2": {
+            "className": "w-100"
+          },
+          "contact": [
+            {
+              "className": "col-md-3",
+              "p": {
+                "span": {
+                  "text": "Address: "
+                },
+                "a": {
+                  "href": "",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "text": "Agbado Ijaiye Ojokoro, Lagos"
+                }
+              }
+            },
+            {
+              "className": "col-md-3",
+              "p": {
+                "span": {
+                  "text": "Phone: "
+                },
+                "a": {
+                  "href": "tel:+2348134738157",
+                  "text": "+234 813 4738 157",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer"
+                }
+              }
+            },
+            {
+              "className": "col-md-3",
+              "p": {
+                "span": {
+                  "text": "Email: "
+                },
+                "a": {
+                  "href": "mailto:abdulrasheed.tella00@gmail.com",
+                  "text": "abdulrasheed.tella00@gmail.com",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer"
+                }
+              }
+            },
+            {
+              "className": "col-md-3",
+              "p": {
+                "span": {
+                  "text": "Website: "
+                },
+                "a": {
+                  "href": "http://rashtell.com",
+                  "text": "rashtell.com",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer"
+                }
+              }
+            }
+          ],
+          "div4": {
+            "className": "row block-9",
+            "div1": {
+              "className": "col-md-6 pr-md-5",
+              "form": {
+                "action": "#",
+                "inputs": [
+                  {
+                    "className": "form-group",
+                    "input": {
+                      "type": "text",
+                      "className": "form-control",
+                      "placeholder": "Your Name"
+                    }
+                  },
+                  {
+                    "className": "form-group",
+                    "input": {
+                      "type": "text",
+                      "className": "form-control",
+                      "placeholder": "Your Email"
+                    }
+                  },
+                  {
+                    "className": "form-group",
+                    "input": {
+                      "type": "text",
+                      "className": "form-control",
+                      "placeholder": "Subject"
+                    }
+                  }
+                ],
+                "textarea": {
+                  "className": "form-group",
+                  "textarea": {
+                    "name": "",
+                    "id": "",
+                    "cols": "30",
+                    "rows": "7",
+                    "className": "form-control",
+                    "placeholder": "Message"
+                  }
+                },
+                "submit": {
+                  "className": "form-group",
+                  "input": {
+                    "type": "submit",
+                    "value": "Send Message",
+                    "className": "btn btn-primary py-3 px-5"
+                  }
+                }
+              }
+            },
+            "map": {
+              "className": "col-md-6",
+              "id": "map"
+            }
+          }
+        }
+      }
+    }
+  },
+  "educationProps": {
+    "div": {
+      "className": "exp mt-5 ftco-animate",
+      "h2": {
+        "className": "mb-4",
+        "text": "Education"
+      },
+      "div": [
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Bachelor of Technology in Mechanical Engineering",
+              "span": {
+                "text": " - Ladoke Akintola University of Technology"
+              }
             },
             "p": {
-                "className": "h3 email",
-                "a": {
-                    "href": "mailto:abdulrasheed.tella00@gmail.com",
-                    "text": "abdulrasheed.tella00@gmail.com"
-                }
+              "className": "location",
+              "text": "Ogbomoso - Oyo State, Nigeria"
             }
-        },
-        "div6": {
-            "className": "row"
-        },
-        "div7": {
-            "className": "col-md-12 text-center"
-        }
-    },
-    "headerData": {
-        "div1": {
-            "className": "container"
-        },
-        "div2": {
-            "className": "row"
-        },
-        "div3": {
-            "className": "col-md-12"
-        },
-        "div4": {
-            "className": "rashtell-navbar-brand"
-        },
-        "a1": {
-            "className": "rashtell-logo",
-            "href": "/"
-        },
-        "span": {
-            "className": "logo-img",
-            "style": {
-                "backgroundImage": "url(images/person_1.jpg)"
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2011 - 2018"
             }
+          }
         },
-        "name": "Tella Abdulrasheed",
-        "a2": {
-            "href": "#",
-            "className": "js-rashtell-nav-toggle rashtell-nav-toggle"
-        }
-    },
-    "navData": {
-        "nav": {
-            "navId": "rashtell-main-nav",
-            "role": "navigation"
-        },
-        "a1": {
-            "href": "/",
-            "className": "js-rashtell-nav-toggle rashtell-nav-toggle active"
-        },
-        "div1": {
-            "className": "js-fullheight rashtell-table"
-        },
-        "div2": {
-            "className": "img",
-            "style": {
-                "backgroundImage": "url(images/author-2.jpg)"
-            }
-        },
-        "div3": {
-            "className": "rashtell-table-cell js-fullheight"
-        },
-        "div4": {
-            "className": "row no-gutters"
-        },
-        "div5": {
-            "className": "col-md-12 text-center"
-        },
-        "h1": {
-            "className": "mb-4"
-        },
-        "a2": {
-            "href": "/",
-            "className": "logo",
-            "name": "Tella Abdulrasheed"
-        }
-    },
-    "portfolioSecProps": {
-        "section": {
-            "className": "ftco-section",
-            "div": {
-                "className": "container",
-                "div": {
-                    "className": "row justify-content-center mb-5 pb-5",
-                    "div1": {
-                        "className": "col-md-7 text-center heading-section ftco-animate",
-                        "span": {
-                            "text": "Portfolio"
-                        },
-                        "h2": {
-                            "text": "Checkout a few of my works"
-                        }
-                    },
-                    "div2": {
-                        "className": "row no-gutters",
-                        "div": {
-                            "className": "block-3 d-md-flex ftco-animate",
-                            "data-scrollax-parent": " properties: { translateY: '-30%'}",
-                            "a": {
-                                "href": "/portfolio-single",
-                                "className": "image d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-1.jpg')"
-                                },
-                                "data-scrollax": "properties: { translateY: '-30%'}",
-                                "div": {
-                                    "className": "icon d-flex text-center justify-content-center align-items-center",
-                                    "span": {
-                                        "className": "icon-search"
-                                    }
-                                }
-                            },
-                            "div": {
-                                "className": "text",
-                                "h4": {
-                                    "className": "subheading",
-                                    "text": "Illustration"
-                                },
-                                "h2": {
-                                    "className": "heading",
-                                    "a": {
-                                        "href": "/portfolio-single",
-                                        "text": "Even the all-powerful Pointing has no control"
-                                    }
-                                },
-                                "p1": {
-                                    "text": "Even the all- powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text."
-                                },
-                                "p2": {
-                                    "a": {
-                                        "href": "#",
-                                        "text": "View Project"
-                                    }
-                                }
-                            }
-                        },
-                        "var": [
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-1.jpg')"
-                                },
-                                "divClassName": "text",
-                                "h4Text": "Illustration",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            },
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-2.jpg')"
-                                },
-                                "divClassName": "text order-1",
-                                "h4Text": "Application",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            },
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-3.jpg')"
-                                },
-                                "divClassName": "text",
-                                "h4Text": "Web Design",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            },
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-4.jpg')"
-                                },
-                                "divClassName": "text order-1",
-                                "h4Text": "Application",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            },
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-5.jpg')"
-                                },
-                                "divClassName": "text",
-                                "h4Text": "Animation",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            },
-                            {
-                                "a1href": "/portfolio-single",
-                                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
-                                "style": {
-                                    "backgroundImage": "url('images/work-6.jpg')"
-                                },
-                                "divClassName": "text order-1",
-                                "h4Text": "Branding",
-                                "a2href": "/portfolio-single",
-                                "a2Text": "Even the all-powerful Pointing has no control",
-                                "pText": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-                                "a3href": "#",
-                                "a3Text": "View Project"
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "profileProps": {
-        "div": {
-            "className": "row d-flex justify-content-end mt-5",
-            "div": {
-                "className": "col-md-10",
-                "div": {
-                    "className": "profile ftco-animate",
-                    "h2": {
-                        "className": "mb-4",
-                        "text": "Profile"
-                    },
-                    "h4": {
-                        "className": "mb-4",
-                        "text": "I'm a UI/UX Designer &amp; Frontend Developer from London, UK. I aim to make a difference through my creative solution."
-                    },
-                    "p": {
-                        "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
-                    },
-                    "div": {
-                        "className": "row my-5",
-                        "div": [
-                            {
-                                "className": "col-md-6",
-                                "p": [
-                                    {
-                                        "strong": {
-                                            "text": "Name:"
-                                        },
-                                        "span": {
-                                            "text": "Beckham Muff"
-                                        }
-                                    },
-                                    {
-                                        "strong": {
-                                            "text": "Address: "
-                                        },
-                                        "span": {
-                                            "text": "88 West 21th Street, Suite 721 New York NY 10016"
-                                        }
-                                    },
-                                    {
-                                        "strong": {
-                                            "text": "Phone: "
-                                        },
-                                        "span": {
-                                            "text": "(123) - 456 - 789"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "className": "col-md-6",
-                                "p": [
-                                    {
-                                        "strong": {
-                                            "text": "Name:"
-                                        },
-                                        "span": {
-                                            "text": "Beckham Muff"
-                                        }
-                                    },
-                                    {
-                                        "strong": {
-                                            "text": "Address: "
-                                        },
-                                        "span": {
-                                            "text": "88 West 21th Street, Suite 721 New York NY 10016"
-                                        }
-                                    },
-                                    {
-                                        "strong": {
-                                            "text": "Phone: "
-                                        },
-                                        "span": {
-                                            "text": "(123) - 456 - 789"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "servicesSecProps" : {
-        "section": {
-            "className": "ftco-section"
-        },
-        "div1": {
-            "className": "container"
-        },
-        "div2": {
-            "className": "row justify-content-center mb-5 pb-5"
-        },
-        "div3": {
-            "className": "col-md-7 text-center heading-section ftco-animate"
-        },
-        "subheading": "What i do",
-        "heading": "My services",
-        "div4": { "className": "row" },
-        "div5": { "className": "col-md-4 d-flex align-self-stretch ftco-animate" },
-        "div6": { "className": "media block-6 services p-3 py-4 d-block text-center" },
-        "div7": { "className": "icon mb-3" },
-        "div8": { "className": "media-body" },
-        "services": [
-            {
-                "span": { "className": "icon-layers" },
-                "h3": [
-                    { "className": "heading", "content": "UI/UX Design" },
-                    { "className": "heading", "content": "Mobile App Design" },
-                    { "className": "heading", "content": "Responsive Design" }
-                ]
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Secondary School Certification",
+              "span": {
+                "text": " - Emmanuel Alayande College of Education Model High School"
+              }
             },
-            {
-                "span": { "className": "icon-gears" },
-                "h3": [
-                    { "className": "heading", "content": "Product Strategy" },
-                    { "className": "heading", "content": "Design Sprints" },
-                    { "className": "heading", "content": "UX Strategy" }
-                ]
-            },
-            {
-                "span": { "className": "icon-code" },
-                "h3": [
-                    { "className": "heading", "content": "HTML/CSS" },
-                    { "className": "heading", "content": "Prototyping" },
-                    { "className": "heading", "content": "User Testing" }
-                ]
+            "p": {
+              "className": "location",
+              "text": "Oyo - Oyo State, Nigeria"
             }
-    
-        ]
-    },
-    "skillsProps" : {
-        "div": {
-            "className": "row mt-5 flex-column ftco-animate",
-            "div1": {
-                "className": "col-md-8",
-                "h2": {
-                    "className": "mb-4", "text": "My Skills"
-                }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2004 - 2010"
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "",
+              "span": {
+                "text": ""
+              }
             },
-            "div2": [
-                {
-                    "className": "col-md-6 animate-box",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "Photoshop"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "75",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "75%"
-                                },
-                                "span": {
-                                    "text": "75%"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "className": "col-md-6 animate-box", "data-animate-effect": "fadeInRight",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "jQuery"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "60",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "60%"
-                                },
-                                "span": {
-                                    "text": "60%"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "className": "col-md-6 animate-box",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "HTML5"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "85",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "85%"
-                                },
-                                "span": {
-                                    "text": "85%"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "className": "col-md-6 animate-box", "data-animate-effect": "fadeInRight",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "CSS3"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "90",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "90%"
-                                },
-                                "span": {
-                                    "text": "90%"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "className": "col-md-6 animate-box",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "WordPress"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "70",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "70%"
-                                },
-                                "span": {
-                                    "text": "70%"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "className": "col-md-6 animate-box", "data-animate-effect": "fadeInRight",
-                    "div": {
-                        "className": "progress-wrap",
-                        "h4": {
-                            "text": "SEO"
-                        },
-                        "div": {
-                            "className": "progress",
-                            "div": {
-                                "className": "progress-bar color-1", "role": "progressbar", "aria-valuenow": "80",
-                                "aria-valuemin": "0", "aria-valuemax": "100",
-                                "style": {
-                                    "width": "80%"
-                                },
-                                "span": {
-                                    "text": "80%"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            "p": {
+              "className": "location",
+              "text": ""
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": ""
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "",
+              "span": {
+                "text": ""
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": ""
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": ""
+            }
+          }
         }
-    },
-    "sliderData" : {
-        "section": {
-            "className": "home-slider owl-carousel js-fullheight"
-        }, "div1": {
-            "className": "slider-item js-fullheight"
-        },
-        "div2": {
-            "className": "overlay"
-        },
-        "div3": {
-            "className": "container"
-        },
-        "div4": {
-            "className": "row slider-text align-items-center text-center justify-content-center",
-            "data-scrollax-parent": "true"
-        },
-        "div5": {
-            "className": "col-md-12 ftco-animate", "data-scrollax": "properties: { translateY: '70%' }"
-        },
-        "a": {
-            "href": "#", "className": "scroll"
-        },
-        "h1": {
-            "className": "mb-3", "data-scrollax": "properties: { translateY: '30%', opacity: 1.6 }"
-        },
-        "info": [
-            {
-                "info1": "Hello! I'm",
-                "info2": "Tella Abdulrasheed"
-            },
-            {
-                "info1": "I'm a Software Developer",
-                "info2": "Coding Has Changed My World"
-            }
-        ]
+      ]
     }
-
+  },
+  "experienceProps": {
+    "div": {
+      "className": "exp mt-5 ftco-animate",
+      "h2": {
+        "className": "mb-4",
+        "text": "Experience"
+      },
+      "div": [
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Fullstack Web Developer",
+              "span": {
+                "text": "Touchandpay Technologies ltd"
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": "VI, Lagos - Nigeria"
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2020 - Present"
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Mobile Application Developer",
+              "span": {
+                "text": "Infinitech ltd"
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": "Lagos - Nigeria"
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2020 - Present"
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Fullstack Web Developer",
+              "span": {
+                "text": "Moore Advice ltd"
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": "Ilupeju, Lagos - Nigeria"
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2020"
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "Software Developer",
+              "span": {
+                "text": " - IkedeHub"
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": "Abuja - Nigeria"
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2019 - 2020"
+            }
+          }
+        },
+        {
+          "className": "exp-wrap py-4",
+          "div1": {
+            "className": "desc",
+            "h4": {
+              "text": "ICT",
+              "span": {
+                "text": " - Federal Mortgage Bank of Nigeria"
+              }
+            },
+            "p": {
+              "className": "location",
+              "text": "Abuja - Nigeria"
+            }
+          },
+          "div2": {
+            "className": "year",
+            "p": {
+              "text": "2018 - 2019"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "footerProps": {
+    "footer": {
+      "className": "ftco-footer ftco-bg-dark ftco-section"
+    },
+    "div1": {
+      "className": "container"
+    },
+    "div2": {
+      "className": "row mb-5 justify-content-center"
+    },
+    "div3": {
+      "className": "col-md-5 text-center"
+    },
+    "div4": {
+      "className": "ftco-footer-widget mb-5",
+      "ul": {
+        "className": "ftco-footer-social list-unstyled",
+        "li": [
+          {
+            "className": "ftco-animate",
+            "ahref": "https://www.twitter.com/rashtell",
+            "spanclassName": "icon-twitter",
+            "target": "_blank",
+            "rel": "noloop noreferrer"
+          },
+          {
+            "className": "ftco-animate",
+            "ahref": "https://www.facebook.com/rashtell",
+            "spanclassName": "icon-facebook",
+            "target": "_blank",
+            "rel": "noloop noreferrer"
+          },
+          {
+            "className": "ftco-animate",
+            "ahref": "https://www.instagram.com/rashtell2",
+            "spanclassName": "icon-instagram",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ]
+      }
+    },
+    "div5": {
+      "className": "ftco-footer-widget",
+      "h2": {
+        "className": "mb-3",
+        "text": "Contact Us"
+      },
+      "p": {
+        "className": "h3 email",
+        "a": {
+          "href": "mailto:abdulrasheed.tella00@gmail.com",
+          "text": "abdulrasheed.tella00@gmail.com"
+        }
+      }
+    },
+    "div6": {
+      "className": "row"
+    },
+    "div7": {
+      "className": "col-md-12 text-center"
+    }
+  },
+  "headerData": {
+    "div1": {
+      "className": "container"
+    },
+    "div2": {
+      "className": "row"
+    },
+    "div3": {
+      "className": "col-md-12"
+    },
+    "div4": {
+      "className": "rashtell-navbar-brand"
+    },
+    "a1": {
+      "className": "rashtell-logo",
+      "href": "/"
+    },
+    "span": {
+      "className": "logo-img",
+      "style": {
+        "backgroundImage": "url(images/person_1.jpg)"
+      }
+    },
+    "name": "Tella Abdulrasheed",
+    "a2": {
+      "href": "#",
+      "className": "js-rashtell-nav-toggle rashtell-nav-toggle"
+    }
+  },
+  "navData": {
+    "nav": {
+      "navId": "rashtell-main-nav",
+      "role": "navigation"
+    },
+    "a1": {
+      "href": "/",
+      "className": "js-rashtell-nav-toggle rashtell-nav-toggle active"
+    },
+    "div1": {
+      "className": "js-fullheight rashtell-table"
+    },
+    "div2": {
+      "className": "img",
+      "style": {
+        "backgroundImage": "url(images/author-2.jpg)"
+      }
+    },
+    "div3": {
+      "className": "rashtell-table-cell js-fullheight"
+    },
+    "div4": {
+      "className": "row no-gutters"
+    },
+    "div5": {
+      "className": "col-md-12 text-center"
+    },
+    "h1": {
+      "className": "mb-4"
+    },
+    "a2": {
+      "href": "/",
+      "className": "logo",
+      "name": "Tella Abdulrasheed"
+    }
+  },
+  "portfolioSecProps": {
+    "section": {
+      "className": "ftco-section",
+      "div": {
+        "className": "container",
+        "div": {
+          "className": "row justify-content-center mb-5 pb-5",
+          "div1": {
+            "className": "col-md-7 text-center heading-section ftco-animate",
+            "span": {
+              "text": "Portfolio"
+            },
+            "h2": {
+              "text": "Checkout a few of my works"
+            }
+          },
+          "div2": {
+            "className": "row no-gutters",
+            "div": {
+              "className": "block-3 d-md-flex ftco-animate",
+              "data-scrollax-parent": " properties: { translateY: '-30%'}",
+              "a": {
+                "href": "/portfolio-single",
+                "className": "image d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-1.jpg')"
+                },
+                "data-scrollax": "properties: { translateY: '-30%'}",
+                "div": {
+                  "className": "icon d-flex text-center justify-content-center align-items-center",
+                  "span": {
+                    "className": "icon-search"
+                  }
+                }
+              },
+              "div": {
+                "className": "text",
+                "h4": {
+                  "className": "subheading",
+                  "text": "Illustration"
+                },
+                "h2": {
+                  "className": "heading",
+                  "a": {
+                    "href": "/portfolio-single",
+                    "text": "Even the all-powerful Pointing has no control"
+                  }
+                },
+                "p1": {
+                  "text": "Even the all- powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text."
+                },
+                "p2": {
+                  "a": {
+                    "href": "#",
+                    "text": "View Project"
+                  }
+                }
+              }
+            },
+            "var": [
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-1.jpg')"
+                },
+                "divClassName": "text",
+                "h4Text": "Illustrations",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "a3href": "#",
+                "a3Text": "View Project"
+              },
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-2.jpg')"
+                },
+                "divClassName": "text order-1",
+                "h4Text": "Application",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                "a3href": "#",
+                "a3Text": "View Project"
+              },
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-3.jpg')"
+                },
+                "divClassName": "text",
+                "h4Text": "Web Design",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+                "a3href": "#",
+                "a3Text": "View Project"
+              },
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-4.jpg')"
+                },
+                "divClassName": "text order-1",
+                "h4Text": "Application",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+                "a3href": "#",
+                "a3Text": "View Project"
+              },
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-5.jpg')"
+                },
+                "divClassName": "text",
+                "h4Text": "Animation",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+                "a3href": "#",
+                "a3Text": "View Project"
+              },
+              {
+                "a1href": "/portfolio-single",
+                "a1ClassName": "image order-2 d-flex justify-content-center align-items-center",
+                "style": {
+                  "backgroundImage": "url('images/work-6.jpg')"
+                },
+                "divClassName": "text order-1",
+                "h4Text": "Branding",
+                "a2href": "/portfolio-single",
+                "a2Text": "Even the all-powerful Pointing has no control",
+                "pText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+                "a3href": "#",
+                "a3Text": "View Project"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "profileProps": {
+    "div": {
+      "className": "row d-flex justify-content-end mt-5",
+      "div": {
+        "className": "col-md-10",
+        "div": {
+          "className": "profile ftco-animate",
+          "h2": {
+            "className": "mb-4",
+            "text": "Profile"
+          },
+          "h4": {
+            "className": "mb-4",
+            "text": "I'm a FullStack Web Developer &amp; a Mobile Application Developer  from Lagos, Nigeria. I aim to make a difference through my creative solution."
+          },
+          "p": {
+            "text": "Coding is my art. Whenever I am neither coding nor being geeky, I am enjoying time with family and friends. Team String Theory"
+          },
+          "div": {
+            "className": "row my-5",
+            "div": [
+              {
+                "className": "col-md-6",
+                "p": [
+                  {
+                    "strong": {
+                      "text": "Name:"
+                    },
+                    "span": {
+                      "text": "Tella Abdulrasheed"
+                    }
+                  },
+                  {
+                    "strong": {
+                      "text": "Address: "
+                    },
+                    "span": {
+                      "text": "Agbado Ijaiye Ojokoro, Lagos"
+                    }
+                  },
+                  {
+                    "strong": {
+                      "text": "Phone: "
+                    },
+                    "span": {
+                      "text": "+234 813 4738 157"
+                    }
+                  }
+                ]
+              },
+              {
+                "className": "col-md-6",
+                "p": [
+                  {
+                    "strong": {
+                      "text": "Name:"
+                    },
+                    "span": {
+                      "text": "Tella Abdulrasheed"
+                    }
+                  },
+                  {
+                    "strong": {
+                      "text": "Address: "
+                    },
+                    "span": {
+                      "text": "Agbado Ijaiye Ojokoro, Lagos"
+                    }
+                  },
+                  {
+                    "strong": {
+                      "text": "Phone: "
+                    },
+                    "span": {
+                      "text": "+234 813 4738 157"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "servicesSecProps": {
+    "section": {
+      "className": "ftco-section"
+    },
+    "div1": {
+      "className": "container"
+    },
+    "div2": {
+      "className": "row justify-content-center mb-5 pb-5"
+    },
+    "div3": {
+      "className": "col-md-7 text-center heading-section ftco-animate"
+    },
+    "subheading": "What i do",
+    "heading": "My services",
+    "div4": {
+      "className": "row"
+    },
+    "div5": {
+      "className": "col-md-4 d-flex align-self-stretch ftco-animate"
+    },
+    "div6": {
+      "className": "media block-6 services p-3 py-4 d-block text-center"
+    },
+    "div7": {
+      "className": "icon mb-3"
+    },
+    "div8": {
+      "className": "media-body"
+    },
+    "services": [
+      {
+        "span": {
+          "className": "icon-layers"
+        },
+        "h3": [
+          {
+            "className": "heading",
+            "content": "Frontend Web Development"
+          },
+          {
+            "className": "heading",
+            "content": "UI/UX Design"
+          },
+          {
+            "className": "heading",
+            "content": "Responsive Design"
+          }
+        ]
+      },
+      {
+        "span": {
+          "className": "icon-gears"
+        },
+        "h3": [
+          {
+            "className": "heading",
+            "content": "Backend Web Development"
+          },
+          {
+            "className": "heading",
+            "content": "SQL & NoSQL Database"
+          },
+          {
+            "className": "heading",
+            "content": "Data Security"
+          }
+        ]
+      },
+      {
+        "span": {
+          "className": "icon-code"
+        },
+        "h3": [
+          {
+            "className": "heading",
+            "content": "Android Applications"
+          },
+          {
+            "className": "heading",
+            "content": "IOS Applications"
+          },
+          {
+            "className": "heading",
+            "content": "Web Applications"
+          }
+        ]
+      }
+    ]
+  },
+  "skillsProps": {
+    "div": {
+      "className": "row mt-5 flex-column ftco-animate",
+      "div1": {
+        "className": "col-md-8",
+        "h2": {
+          "className": "mb-4",
+          "text": "My Skills"
+        }
+      },
+      "div2": [
+        {
+          "className": "col-md-6 animate-box",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "React"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "95",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "95%"
+                },
+                "span": {
+                  "text": "95%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "data-animate-effect": "fadeInRight",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "NodeJs"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "80",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "80%"
+                },
+                "span": {
+                  "text": "80%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "data-animate-effect": "fadeInRight",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "React-Native"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "90",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "90%"
+                },
+                "span": {
+                  "text": "90%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "data-animate-effect": "fadeInRight",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "Php"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "85",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "85%"
+                },
+                "span": {
+                  "text": "85%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "Python"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "70",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "70%"
+                },
+                "span": {
+                  "text": "70%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "Go"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "60",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "60%"
+                },
+                "span": {
+                  "text": "60%"
+                }
+              }
+            }
+          }
+        },
+        {
+          "className": "col-md-6 animate-box",
+          "div": {
+            "className": "progress-wrap",
+            "h4": {
+              "text": "Java"
+            },
+            "div": {
+              "className": "progress",
+              "div": {
+                "className": "progress-bar color-1",
+                "role": "progressbar",
+                "aria-valuenow": "70",
+                "aria-valuemin": "0",
+                "aria-valuemax": "100",
+                "style": {
+                  "width": "70%"
+                },
+                "span": {
+                  "text": "70%"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sliderData": {
+    "section": {
+      "className": "home-slider owl-carousel js-fullheight"
+    },
+    "div1": {
+      "className": "slider-item js-fullheight"
+    },
+    "div2": {
+      "className": "overlay"
+    },
+    "div3": {
+      "className": "container"
+    },
+    "div4": {
+      "className": "row slider-text align-items-center text-center justify-content-center",
+      "data-scrollax-parent": "true"
+    },
+    "div5": {
+      "className": "col-md-12 ftco-animate",
+      "data-scrollax": "properties: { translateY: '70%' }"
+    },
+    "a": {
+      "href": "#",
+      "className": "scroll"
+    },
+    "h1": {
+      "className": "mb-3",
+      "data-scrollax": "properties: { translateY: '30%', opacity: 1.6 }"
+    },
+    "info": [
+      {
+        "info1": "Hello! I'm",
+        "info2": "Tella Abdulrasheed"
+      },
+      {
+        "info1": "I'm a Software Developer",
+        "info2": "Coding Has Changed My World"
+      }
+    ]
+  }
 }

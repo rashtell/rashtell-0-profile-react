@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { Progress } from './ui/progress';
-import { Nav } from './ui/nav';
-import { Header } from './ui/header';
-import { Home } from './pages/home';
-import { Resume } from './pages/resume';
-import { Services } from './pages/services';
-import { Portfolio } from './pages/portfolio';
-import { Blog } from './pages/blog';
-import { Contact } from './pages/contact';
-import { Footer } from './ui/footer';
-import { Loader } from './ui/loader';
-import { BlogSingle } from './ui/blog-single';
-import { Errors } from './ui/errors';
-
+import { Progress } from "./ui/progress";
+import { Nav } from "./ui/nav";
+import { Header } from "./ui/header";
+import { Home } from "./pages/home";
+import { Resume } from "./pages/resume";
+import { Services } from "./pages/services";
+import { Portfolio } from "./pages/portfolio";
+import { Blog } from "./pages/blog";
+import { Contact } from "./pages/contact";
+import { Footer } from "./ui/footer";
+import { Loader } from "./ui/loader";
+import { BlogSingle } from "./ui/blog-single";
+import { Errors } from "./ui/errors";
 
 class Website extends Component {
   constructor(props) {
@@ -36,194 +35,228 @@ class Website extends Component {
   }
 
   componentDidMount() {
-    this.getContentsCount();
-    this.fetchContents();
+    // this.getContentsCount();
+    // this.fetchContents();
   }
 
   getContentsCount() {
-    let url = 'http://localhost:3500/api/blogs/count'
+    let url = "http://localhost:3500/api/blogs/count";
     fetch(url)
-      .then((res) => {
+      .then(res => {
         if (res.ok) return res.json();
         throw Error(`Fetch blog size failed: ${res.statusText}`);
-      }).then((res) => {
-        this.setState({ blogCount: res.count })
       })
-      .catch((error) => {
-        this.getContentsCount();
+      .then(res => {
+        this.setState({ blogCount: res.count });
       })
+      .catch(error => {
+        // this.getContentsCount();
+      });
   }
 
   fetchContents() {
-    let url = 'http://localhost:3500/api/blogs';
+    let url = "http://localhost:3500/api/blogs";
 
     let last = this.state.pageNumActive * this.contentsPerPage;
     let first = last - this.contentsPerPage;
-    let filter = `?filter[limit]=${this.contentsPerPage}&filter[skip]=${first}`
+    let filter = `?filter[limit]=${this.contentsPerPage}&filter[skip]=${first}`;
 
     fetch(url + filter)
-      .then((response) => {
+      .then(response => {
         if (response.ok) {
-          return (response.json());
+          return response.json();
         }
         throw Error(`Blog Fetch Error: ${response.statusText}`);
-
-
       })
-      .then((response) => {
+      .then(response => {
         this.fetchSuccess(response);
       })
-      .catch((error) => {
+      .catch(error => {
         this.fetchFailure(error);
       });
   }
 
-  fetchSuccess = (response) => {
+  fetchSuccess = response => {
     this.numOfpages = Math.ceil(response.length / this.contentsPerPage);
 
     this.setState({
       blogGridProps: response,
-      pageNumMax: this.numOfpages < this.defPageNumRange ? this.numOfpages : this.defPageNumRange,
+      pageNumMax:
+        this.numOfpages < this.defPageNumRange
+          ? this.numOfpages
+          : this.defPageNumRange,
       fetchSuccess: true
     });
-  }
+  };
 
-  fetchFailure = (error) => {
+  fetchFailure = error => {
     this.setState({
       fetchSuccess: false,
       error: error
     });
-  }
+  };
 
-  pageNumClicked = (e) => {
+  pageNumClicked = e => {
     let pageNumClickedId = parseInt(e.currentTarget.textContent);
     this.setState({ pageNumActive: pageNumClickedId });
     this.fetchContents();
-  }
+  };
 
   incrementPageNumMinAndMax = () => {
     if (this.state.pageNumMax < this.numOfpages) {
       this.setState(prevState => {
-        prevState.pageNumMin++
-        prevState.pageNumActive++
-        prevState.pageNumMax++
+        prevState.pageNumMin++;
+        prevState.pageNumActive++;
+        prevState.pageNumMax++;
       });
     } else if (this.state.pageNumActive < this.state.pageNumMax) {
-      this.setState(
-        prevState => prevState.pageNumActive++
-      );
+      this.setState(prevState => prevState.pageNumActive++);
     }
 
     this.fetchContents();
-  }
+  };
 
   decrementPageNumMinAndMax = () => {
-
     if (this.state.pageNumMin > 1) {
       this.setState(prevState => {
-        prevState.pageNumMin--; prevState.pageNumActive--;
+        prevState.pageNumMin--;
+        prevState.pageNumActive--;
         prevState.pageNumMax--;
-      })
+      });
     } else if (this.state.pageNumActive > 1) {
-      this.setState(
-        prevState => prevState.pageNumActive--
-      )
+      this.setState(prevState => prevState.pageNumActive--);
     }
 
-    this.fetchContents()
-  }
+    this.fetchContents();
+  };
 
   setActiveNav(navLink) {
-    if (this.state.navLinkActive !== navLink) this.setState({
-      navLinkActive: navLink
-    });
-
+    if (this.state.navLinkActive !== navLink)
+      this.setState({
+        navLinkActive: navLink
+      });
   }
 
   render() {
     return (
-
       <BrowserRouter>
         <>
           <Progress />
-          <div
-            className="page"
-          >
+          <div className="page">
             <Nav navLinkActive={this.state.navLinkActive} />
           </div>
-          <div
-            id="rashtell-page">
+          <div id="rashtell-page">
             <Header />
 
             <Switch>
+              <Route
+                exact
+                path="/"
+                render={() => {
+                  this.setActiveNav(1);
+                  return <Home />;
+                }}
+              />
 
-              <Route exact path="/" render={() => {
-                this.setActiveNav(1);
-                return (
-                  <Home />
-                );
-              }} />
+              <Route
+                exact
+                path="/resume"
+                render={() => {
+                  this.setActiveNav(2);
+                  return <Resume />;
+                }}
+              />
 
-              <Route exact path="/resume" render={() => {
-                this.setActiveNav(2);
-                return (
-                  <Resume />
-                );
-              }} />
+              <Route
+                exact
+                path="/services"
+                component={() => {
+                  this.setActiveNav(3);
+                  return <Services />;
+                }}
+              />
 
-              <Route exact path="/services" component={() => {
-                this.setActiveNav(3);
-                return (
-                  <Services />
-                );
-              }} />
+              <Route
+                exact
+                path="/portfolio"
+                component={() => {
+                  this.setActiveNav(4);
+                  return <Portfolio />;
+                }}
+              />
 
-              <Route exact path="/portfolio" component={() => {
-                this.setActiveNav(4);
-                return (
-                  <Portfolio />
-                );
-              }} />
+              <Route
+                exact
+                path="/blog"
+                render={() => {
+                  this.setActiveNav(5);
+                  return (
+                    <Blog
+                      pageNumClicked={this.pageNumClicked}
+                      incrementPageNumMinAndMax={this.incrementPageNumMinAndMax}
+                      decrementPageNumMinAndMax={this.decrementPageNumMinAndMax}
+                      contentsPerPage={this.contentsPerPage}
+                      {...this.state}
+                    />
+                  );
+                }}
+              />
 
-              <Route exact path="/contact" render={() => {
-                this.setActiveNav(5);
-                return (
-                  <Contact />
-                );
-              }} />
+              <Route
+                exact
+                path="/contact"
+                render={() => {
+                  this.setActiveNav(6);
+                  return <Contact />;
+                }}
+              />
 
-              <Route exact path="/blog" render={() => {
-                this.setActiveNav(6);
-                return (
-                  <Blog pageNumClicked={this.pageNumClicked}
-                    incrementPageNumMinAndMax={this.incrementPageNumMinAndMax} decrementPageNumMinAndMax={this.decrementPageNumMinAndMax} contentsPerPage={this.contentsPerPage} {...this.state} />
+              <Route
+                exact
+                path="/blog-singles/:id"
+                render={props => {
+                  let id = props.location.pathname.replace(
+                    "/blog-singles/",
+                    ""
+                  );
+                  id = parseInt(id);
 
-                );
-              }} />
+                  let blog = this.state.blogGridProps[id - 1];
 
-              <Route exact path="/blog-singles/:id" render={(props) => {
-                let id = props.location.pathname.replace("/blog-singles/", "");
-                id = parseInt(id);
+                  return this.state.fetchSuccess ? (
+                    <BlogSingle
+                      author={blog.author}
+                      authorImage={blog.authorImage}
+                      authorLink={blog.authorLink}
+                      aboutAuthor={blog.aboutAuthor}
+                      contentHeading={blog.contentHeading}
+                      content={blog.content}
+                      tags={blog.tags}
+                      comment={blog.comment}
+                      commentCount={blog.commentCount}
+                      commentCountLink={blog.commentCountLink}
+                    />
+                  ) : (
+                    <Errors
+                      title={"Failed to fetch content"}
+                      error={"Their was a network problem"}
+                      message="SUCK MY DICK"
+                    />
+                  );
+                }}
+              />
 
-                let blog = this.state.blogGridProps[id - 1];
-
-                return (
-                  this.state.fetchSuccess ?
-                    <BlogSingle author={blog.author} authorImage={blog.authorImage} authorLink={blog.authorLink} aboutAuthor={blog.aboutAuthor} contentHeading={blog.contentHeading} content={blog.content} tags={blog.tags} comment={blog.comment} commentCount={blog.commentCount} commentCountLink={blog.commentCountLink} />
-                    :
-                    <Errors title={"Failed to fetch content"} error={"Their was a network problem"} message="SUCK MY DICK" />
-
-                );
-
-
-              }} />
-
-              <Route render={() => {
-                return (
-                  <Errors title={"Request Not Found"} error={"The page was not found"} message="FUCK OFF" />
-                );
-              }} />
-
+              <Route
+                render={() => {
+                  return (
+                    <Errors
+                      title={"Request Not Found"}
+                      error={"The page was not found"}
+                      message="FUCK OFF"
+                    />
+                  );
+                }}
+              />
             </Switch>
 
             <Footer />
