@@ -67,7 +67,7 @@
   },
   "aboutInfoData": {
     "className": "mb-5",
-    "text1": "Hi! I'm Tella Abdulrasheed",
+    "text1": "Hi! I'm Rasheed Tella",
     "text2": "My specialties includes Fullstack Web Development, Mobile Application Development and Machine Learning.",
     "resumeLink": "http://www.github.com/rashtell",
     "resumeText": "Checkout my Repositories"
@@ -86,7 +86,8 @@
     "div3": {
       "className": "col-md-4 author-img",
       "style": {
-        "backgroundImage": "url(images/author-1.jpg)"
+        "backgroundImage": "url(images/author-1.jpg)",
+        "backgroundPositionY": "top"
       },
       "data-scrollax": " properties: { translateY: '-70%'}"
     },
@@ -154,17 +155,17 @@
       {
         "divClass": "row d-flex justify-content-start",
         "spanText": "Clients",
-        "data-number": "40"
+        "data-number": "90"
       },
       {
         "divClass": "row d-flex justify-content-center",
         "spanText": "Meetings",
-        "data-number": "200"
+        "data-number": "400"
       },
       {
         "divClass": "row d-flex justify-content-end",
         "spanText": "Cups of coffee",
-        "data-number": "500"
+        "data-number": "700"
       }
     ]
   },
@@ -196,7 +197,7 @@
                   "href": "",
                   "target": "_blank",
                   "rel": "noopener noreferrer",
-                  "text": "Agbado Ijaiye Ojokoro, Lagos"
+                  "text": "Lagos"
                 }
               }
             },
@@ -204,7 +205,7 @@
               "className": "col-md-3",
               "p": {
                 "span": {
-                  "text": "Phone: "
+                "text": "Phone: "
                 },
                 "a": {
                   "href": "tel:+2348134738157",
@@ -235,7 +236,7 @@
                   "text": "Website: "
                 },
                 "a": {
-                  "href": "http://rashtell.com",
+                  "href": "http://rashtel.now.sh",
                   "text": "rashtell.com",
                   "target": "_blank",
                   "rel": "noopener noreferrer"
@@ -255,7 +256,17 @@
                     "input": {
                       "type": "text",
                       "className": "form-control",
-                      "placeholder": "Your Name"
+                      "placeholder": "Your Name",
+                      "name": "name"
+                    }
+                  },
+                  {
+                    "className": "form-group",
+                    "input": {
+                      "type": "email",
+                      "className": "form-control",
+                      "placeholder": "Your Email",
+                      "name": "email"
                     }
                   },
                   {
@@ -263,23 +274,16 @@
                     "input": {
                       "type": "text",
                       "className": "form-control",
-                      "placeholder": "Your Email"
-                    }
-                  },
-                  {
-                    "className": "form-group",
-                    "input": {
-                      "type": "text",
-                      "className": "form-control",
-                      "placeholder": "Subject"
+                      "placeholder": "Subject",
+                      "name": "subject"
                     }
                   }
                 ],
                 "textarea": {
                   "className": "form-group",
                   "textarea": {
-                    "name": "",
-                    "id": "",
+                    "name": "message",
+                    "id": "message",
                     "cols": "30",
                     "rows": "7",
                     "className": "form-control",
@@ -441,7 +445,7 @@
             "h4": {
               "text": "Mobile Application Developer",
               "span": {
-                "text": "Infinitech ltd"
+                "text": "Infinite Tech Solutions"
               }
             },
             "p": {
@@ -611,7 +615,7 @@
         "backgroundImage": "url(images/person_1.jpg)"
       }
     },
-    "name": "Tella Abdulrasheed",
+    "name": "Rasheed Tella",
     "a2": {
       "href": "#",
       "className": "js-rashtell-nav-toggle rashtell-nav-toggle"
@@ -650,7 +654,7 @@
     "a2": {
       "href": "/",
       "className": "logo",
-      "name": "Tella Abdulrasheed"
+      "name": "Rasheed Tella"
     }
   },
   "portfolioSecProps": {
@@ -816,10 +820,10 @@
           },
           "h4": {
             "className": "mb-4",
-            "text": "I'm a FullStack Web Developer &amp; a Mobile Application Developer  from Lagos, Nigeria. I aim to make a difference through my creative solution."
+            "text": "I'm a FullStack Web Developer, Mobile Application Developer and Technology enthusiast from Lagos, Nigeria. I aim to make a difference through my creative solution."
           },
           "p": {
-            "text": "Coding is my art. Whenever I am neither coding nor being geeky, I am enjoying time with family and friends. Team String Theory"
+            "text": "Coding is my art. I love learning as much i as passing down knowledge. I love enjoying time with family and friends."
           },
           "div": {
             "className": "row my-5",
@@ -832,7 +836,7 @@
                       "text": "Name:"
                     },
                     "span": {
-                      "text": "Tella Abdulrasheed"
+                      "text": "Rasheed Tella"
                     }
                   },
                   {
@@ -840,7 +844,7 @@
                       "text": "Address: "
                     },
                     "span": {
-                      "text": "Agbado Ijaiye Ojokoro, Lagos"
+                      "text": "Lagos"
                     }
                   },
                   {
@@ -861,7 +865,7 @@
                       "text": "Name:"
                     },
                     "span": {
-                      "text": "Tella Abdulrasheed"
+                      "text": "Rasheed Tella"
                     }
                   },
                   {
@@ -869,7 +873,7 @@
                       "text": "Address: "
                     },
                     "span": {
-                      "text": "Agbado Ijaiye Ojokoro, Lagos"
+                      "text": "Lagos"
                     }
                   },
                   {
@@ -1202,7 +1206,7 @@
     "info": [
       {
         "info1": "Hello! I'm",
-        "info2": "Tella Abdulrasheed"
+        "info2": "Rasheed Tella"
       },
       {
         "info1": "I'm a Software Developer",

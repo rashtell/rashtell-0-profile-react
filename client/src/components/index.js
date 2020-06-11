@@ -30,26 +30,28 @@ class Website extends Component {
       fetchSuccess: false,
       error: "",
       navLinkActive: 3,
-      blogCount: 0
+      blogCount: 0,
     };
   }
 
   componentDidMount() {
-    // this.getContentsCount();
-    // this.fetchContents();
+    if (window.location.pathname === "/blog") {
+      this.getContentsCount();
+      this.fetchContents();
+    }
   }
 
   getContentsCount() {
     let url = "http://localhost:3500/api/blogs/count";
     fetch(url)
-      .then(res => {
+      .then((res) => {
         if (res.ok) return res.json();
         throw Error(`Fetch blog size failed: ${res.statusText}`);
       })
-      .then(res => {
+      .then((res) => {
         this.setState({ blogCount: res.count });
       })
-      .catch(error => {
+      .catch((error) => {
         // this.getContentsCount();
       });
   }
@@ -62,21 +64,21 @@ class Website extends Component {
     let filter = `?filter[limit]=${this.contentsPerPage}&filter[skip]=${first}`;
 
     fetch(url + filter)
-      .then(response => {
+      .then((response) => {
         if (response.ok) {
           return response.json();
         }
         throw Error(`Blog Fetch Error: ${response.statusText}`);
       })
-      .then(response => {
+      .then((response) => {
         this.fetchSuccess(response);
       })
-      .catch(error => {
+      .catch((error) => {
         this.fetchFailure(error);
       });
   }
 
-  fetchSuccess = response => {
+  fetchSuccess = (response) => {
     this.numOfpages = Math.ceil(response.length / this.contentsPerPage);
 
     this.setState({
@@ -85,18 +87,18 @@ class Website extends Component {
         this.numOfpages < this.defPageNumRange
           ? this.numOfpages
           : this.defPageNumRange,
-      fetchSuccess: true
+      fetchSuccess: true,
     });
   };
 
-  fetchFailure = error => {
+  fetchFailure = (error) => {
     this.setState({
       fetchSuccess: false,
-      error: error
+      error: error,
     });
   };
 
-  pageNumClicked = e => {
+  pageNumClicked = (e) => {
     let pageNumClickedId = parseInt(e.currentTarget.textContent);
     this.setState({ pageNumActive: pageNumClickedId });
     this.fetchContents();
@@ -104,13 +106,13 @@ class Website extends Component {
 
   incrementPageNumMinAndMax = () => {
     if (this.state.pageNumMax < this.numOfpages) {
-      this.setState(prevState => {
+      this.setState((prevState) => {
         prevState.pageNumMin++;
         prevState.pageNumActive++;
         prevState.pageNumMax++;
       });
     } else if (this.state.pageNumActive < this.state.pageNumMax) {
-      this.setState(prevState => prevState.pageNumActive++);
+      this.setState((prevState) => prevState.pageNumActive++);
     }
 
     this.fetchContents();
@@ -118,13 +120,13 @@ class Website extends Component {
 
   decrementPageNumMinAndMax = () => {
     if (this.state.pageNumMin > 1) {
-      this.setState(prevState => {
+      this.setState((prevState) => {
         prevState.pageNumMin--;
         prevState.pageNumActive--;
         prevState.pageNumMax--;
       });
     } else if (this.state.pageNumActive > 1) {
-      this.setState(prevState => prevState.pageNumActive--);
+      this.setState((prevState) => prevState.pageNumActive--);
     }
 
     this.fetchContents();
@@ -133,7 +135,7 @@ class Website extends Component {
   setActiveNav(navLink) {
     if (this.state.navLinkActive !== navLink)
       this.setState({
-        navLinkActive: navLink
+        navLinkActive: navLink,
       });
   }
 
@@ -214,7 +216,7 @@ class Website extends Component {
               <Route
                 exact
                 path="/blog-singles/:id"
-                render={props => {
+                render={(props) => {
                   let id = props.location.pathname.replace(
                     "/blog-singles/",
                     ""
@@ -240,7 +242,7 @@ class Website extends Component {
                     <Errors
                       title={"Failed to fetch content"}
                       error={"Their was a network problem"}
-                      message="SUCK MY DICK"
+                      message="Please try again"
                     />
                   );
                 }}
@@ -250,9 +252,9 @@ class Website extends Component {
                 render={() => {
                   return (
                     <Errors
-                      title={"Request Not Found"}
-                      error={"The page was not found"}
-                      message="FUCK OFF"
+                      title={"Comming Soon"}
+                      error={"Still In The Making"}
+                      message="Requested Page: Not Yet Available. Please Check Back Soon"
                     />
                   );
                 }}

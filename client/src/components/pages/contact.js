@@ -1,8 +1,8 @@
-import React from 'react';
-import { ContactSec } from '../ui/contact-sec';
+import React from "react";
+import { ContactSec } from "../ui/contact-sec";
 
-export const Contact = () =>
-    <>
-        <ContactSec />
-    </>
-
+export const Contact = () => (
+  <>
+    <ContactSec />
+  </>
+);

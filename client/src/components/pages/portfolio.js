@@ -1,8 +1,8 @@
-import React from 'react';
-import { PortfolioSec } from '../ui/portfolio-sec';
+import React from "react";
+import { PortfolioSec } from "../ui/portfolio-sec";
 
-export const Portfolio = () =>
-    <>
-        <PortfolioSec />
-    </>
-
+export const Portfolio = () => (
+  <>
+    <PortfolioSec />
+  </>
+);

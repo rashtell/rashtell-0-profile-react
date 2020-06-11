@@ -1,9 +1,8 @@
-import React from 'react';
-import { ServicesSec } from '../ui/services-sec';
+import React from "react";
+import { ServicesSec } from "../ui/services-sec";
 
-
-export const Services = () =>
-    <>
-        <ServicesSec />
-    </>
-
+export const Services = () => (
+  <>
+    <ServicesSec />
+  </>
+);
