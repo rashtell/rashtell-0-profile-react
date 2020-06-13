@@ -10,7 +10,7 @@ export const Home = () => (
     <Slider />
     <AboutSec />
     <ServicesSec />
-    <PortfolioSec />
+    {/* <PortfolioSec /> */}
     <Achievment />
   </>
 );

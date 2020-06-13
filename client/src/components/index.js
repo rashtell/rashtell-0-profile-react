@@ -178,14 +178,14 @@ class Website extends Component {
                 }}
               />
 
-              <Route
+              {/* <Route
                 exact
                 path="/portfolio"
                 component={() => {
                   this.setActiveNav(4);
                   return <Portfolio />;
                 }}
-              />
+              /> */}
 
               <Route
                 exact
