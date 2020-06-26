@@ -1,5 +1,5 @@
 export const appVariables = () =>
-  process.env.NODE_ENV === "production"
+  process.env.NODE_ENV !== "mistake"
     ? { baseurl: "https://apis.touchandpay.me/coroclub/rashtellger" }
     : { baseurl: "http://localhost/rashtell/apis" };
 
