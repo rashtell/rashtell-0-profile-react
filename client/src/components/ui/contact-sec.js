@@ -23,7 +23,7 @@ export const ContactSec = () => {
   }, []);
 
   const initState = {
-    type: "Rashtell",
+    website:window.location.host,
     name: "",
     email: "",
     subject: "",
